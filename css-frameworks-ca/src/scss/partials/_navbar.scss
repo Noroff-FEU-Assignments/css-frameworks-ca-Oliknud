@@ -5,10 +5,15 @@
     outline: none;
     box-shadow: none;
     border: none;
+    padding: 0;
 }
 
 .navbar {
     padding: 15px 0;
+}
+
+.nav-container {
+    padding: 0;
 }
 
 .navbar-toggler-icon {
@@ -20,4 +25,24 @@
     font-weight: bold;
     font-style: italic;
     color: #E92569 !important;
+}
+
+.nav-search {
+    border-radius: 0;
+    border: none;
+
+}
+
+.btn {
+    border-radius: 0;
+    border: none;
+    background-color: #E92569;
+    color: white;
+    width: 43px;
+}
+
+.navbar-nav {
+    .active {
+        background-color: white;
+    }
 }
