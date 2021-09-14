@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../css-frameworks-ca/src/App.scss",
+        "../css-frameworks-ca/src/partials/_navbar.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}
