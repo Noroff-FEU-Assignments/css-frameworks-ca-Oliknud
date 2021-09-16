@@ -7,7 +7,7 @@ import thirdTab from "../images/Tab-images/tab-3.jpg";
 const homeAccordion = () => {
   return (
     <div className="container container-accordion">
-      <Accordion defaultActiveKey="0">
+      <Accordion defaultActiveKey="0" className="d-md-none">
         <Accordion.Item eventKey="0">
           <Accordion.Header>First</Accordion.Header>
           <Accordion.Body>
@@ -28,7 +28,7 @@ const homeAccordion = () => {
             <img src={secondTab} className="tab-images" alt="tab 2"></img>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="1">
+        <Accordion.Item eventKey="2">
           <Accordion.Header>Third</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

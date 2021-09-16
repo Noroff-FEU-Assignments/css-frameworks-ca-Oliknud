@@ -5,6 +5,7 @@ import Nav from './components/Nav.js';
 import Carousel from './components/Carousel.js';
 import Home from './components/Home';
 import Accordion from './components/Accordion';
+import Tabs from './components/HomeTabs';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Carousel />
       <Home />
       <Accordion />
+      <Tabs />
       
     </div>
   );

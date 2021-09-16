@@ -1,9 +1,31 @@
-.accordion-body {
-    display: flex;
-    flex-direction: column;
+.accordion-button {
+  color: $color-primary;
 
+  &:focus,
+  &:not(.collapsed) {
+    box-shadow: none;
+    background-color: white;
+    color: $color-primary;
+  }
+
+  &:not(.collapsed) {
+    border-bottom: 1px solid $color-primary;
+  }
+}
+
+.accordion {
+    filter: drop-shadow(0px 12px 15px rgba(0, 0, 0, 0.055) );
+
+
+  .accordion-item {
+    border: none;
+  }
+
+  .accordion-body {
+      background-color: #F5F5F5;
+  }
 }
 
 .tab-images {
-    width: 100%;
+  width: 100%;
 }

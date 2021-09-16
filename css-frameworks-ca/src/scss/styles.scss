@@ -1,4 +1,8 @@
+$color-primary: #E92569;
+$color-secondary: #767676;
+
 @import "~bootstrap/scss/bootstrap";
+@import "./partials/typography";
 @import "./partials/navbar";
 @import "./partials/carousel";
 @import "./partials/home";
