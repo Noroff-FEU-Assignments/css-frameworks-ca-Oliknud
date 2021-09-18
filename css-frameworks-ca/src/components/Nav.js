@@ -18,9 +18,9 @@ const navBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             <div className="links">
-              <Nav.Link to="/">Home</Nav.Link>
-              <Link to="/news">News</Link>
-              <Nav.Link to="/contact">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/news">News</Nav.Link>
+              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </div>
             <Form className="d-flex">
               <FormControl
@@ -29,7 +29,7 @@ const navBar = () => {
                 className="mr-2 nav-search"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Go</Button>
+              <Button className="search-btn" variant="outline-success">Go</Button>
             </Form>
           </Nav>
         </Navbar.Collapse>

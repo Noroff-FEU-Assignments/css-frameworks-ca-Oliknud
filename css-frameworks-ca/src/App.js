@@ -3,8 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/styles.scss";
 import HomePage from "./pages/HomePage";
 import Contact from "./pages/Contact";
+import News from "./pages/News";
 import Navbar from "./components/Nav";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/contact" component={Contact} />
-          <Route path="/" />
+          <Route path="/news" component={News}/>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
