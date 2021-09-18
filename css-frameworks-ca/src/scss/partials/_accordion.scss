@@ -14,15 +14,10 @@
 }
 
 .accordion {
-    filter: drop-shadow(0px 12px 15px rgba(0, 0, 0, 0.055) );
-
-
-  .accordion-item {
-    border: none;
-  }
-
+  filter: drop-shadow(0px 12px 15px rgba(0, 0, 0, 0.055));
+  margin: 76px 0 176px 0;
   .accordion-body {
-      background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
 }
 

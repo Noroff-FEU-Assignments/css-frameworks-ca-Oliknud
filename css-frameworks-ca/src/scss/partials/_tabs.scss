@@ -1,0 +1,29 @@
+.tab-images {
+    max-width: 238px;
+}
+
+.nav-tabs {
+    margin-bottom: -8px !important;
+
+    .nav-link {
+        border-radius: 10px 10px 0 0 !important;
+        border: none;
+        height: 50px;
+    }
+}
+
+.tab-content {
+    padding: 40px 50px 60px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image-col {
+    max-width: 270px;
+}
+
+.share {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}

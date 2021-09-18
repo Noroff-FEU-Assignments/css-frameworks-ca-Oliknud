@@ -6,6 +6,7 @@ import Carousel from './components/Carousel.js';
 import Home from './components/Home';
 import Accordion from './components/Accordion';
 import Tabs from './components/HomeTabs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Home />
       <Accordion />
       <Tabs />
-      
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,8 @@
 $color-primary: #E92569;
 $color-secondary: #767676;
+$color-background: #E5E5E5;
+
+body {background-color: $color-background !important;}
 
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/typography";
@@ -7,6 +10,12 @@ $color-secondary: #767676;
 @import "./partials/carousel";
 @import "./partials/home";
 @import "./partials/accordion";
+@import "./partials/footer";
+@import "./partials/tabs";
+
 
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome/";
+
