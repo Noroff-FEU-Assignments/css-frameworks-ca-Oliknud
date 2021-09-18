@@ -10,16 +10,16 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const HomeTabs = () => {
   return (
-    <div className="container d-none d-md-block">
+    <div className="container tab-container d-none d-md-block">
       <Tabs
-        defaultActiveKey="profile"
+        defaultActiveKey="first"
         id="uncontrolled-tab-example"
         className="mb-3"
       >
         <Tab eventKey="first" title="first">
           <div className="row">
             <div className="col image-col">
-              <img className="tab-images" src={firstImg} />
+              <img className="tab-images" alt="first tab" src={firstImg} />
             </div>
 
             <div className="col">
@@ -31,16 +31,16 @@ const HomeTabs = () => {
               </p>
               <div className="share">
                 <h5>SHARE</h5>
-                <FontAwesomeIcon icon={faFacebookF} />
-                <FontAwesomeIcon icon={faTwitter} />
+                <FontAwesomeIcon icon={faFacebookF} size="2x" />
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
               </div>
             </div>
           </div>
         </Tab>
         <Tab eventKey="second" title="second">
           <div className="row">
-            <div className="col">
-              <img className="tab-images" src={secondImg} />
+            <div className="col image-col">
+              <img className="tab-images" alt="second tab" src={secondImg} />
             </div>
 
             <div className="col">
@@ -50,13 +50,18 @@ const HomeTabs = () => {
                 ullamcorper turpis. Cras vehicula pharetra lectus non maximus.
                 Sed condimentum mattis rhoncus.
               </p>
+              <div className="share">
+                <h5>SHARE</h5>
+                <FontAwesomeIcon icon={faFacebookF} size="2x" />
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </div>
             </div>
           </div>
         </Tab>
         <Tab eventKey="third" title="third">
           <div className="row">
-            <div className="col">
-              <img className="tab-images" src={thirdImg} />
+            <div className="col image-col">
+              <img className="tab-images" alt="third tab" src={thirdImg} />
             </div>
 
             <div className="col">
@@ -66,6 +71,11 @@ const HomeTabs = () => {
                 ullamcorper turpis. Cras vehicula pharetra lectus non maximus.
                 Sed condimentum mattis rhoncus.
               </p>
+              <div className="share">
+                <h5>SHARE</h5>
+                <FontAwesomeIcon icon={faFacebookF} size="2x" />
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </div>
             </div>
           </div>
         </Tab>

@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
+import { Link } from "react-router-dom";
 
 const navBar = () => {
   return (
@@ -17,9 +18,9 @@ const navBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             <div className="links">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#news">News</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link to="/">Home</Nav.Link>
+              <Link to="/news">News</Link>
+              <Nav.Link to="/contact">Contact</Nav.Link>
             </div>
             <Form className="d-flex">
               <FormControl
