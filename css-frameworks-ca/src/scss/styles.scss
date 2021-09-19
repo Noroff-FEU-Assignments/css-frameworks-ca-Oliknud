@@ -2,7 +2,7 @@ $color-primary: #E92569;
 $color-secondary: #767676;
 $color-background: #E5E5E5;
 
-body {background-color: $color-background !important;}
+body {background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%) !important;}
 
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/typography";
@@ -13,6 +13,7 @@ body {background-color: $color-background !important;}
 @import "./partials/footer";
 @import "./partials/homeTabs";
 @import "./partials/contact";
+@import "./partials/news";
 
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');

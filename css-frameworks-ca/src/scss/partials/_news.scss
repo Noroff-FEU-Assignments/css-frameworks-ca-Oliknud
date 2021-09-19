@@ -1,0 +1,37 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  .card {
+    max-width: 240px;
+    margin: 20px 0;
+  }
+
+  .btn {
+      width: 100%;
+      background: linear-gradient(90deg, rgba(233,37,105,1) 85%, rgba(118,118,118,1) 85%);
+      border: none;
+  }
+}
+
+.pagination-bottom {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 138px;
+  }
+}
+
+.pagination {
+    .page-link {
+        border-color: $color-primary;
+        color: $color-primary;
+        padding: 10px 20px;
+    }
+    .active {
+        .page-link {
+            background-color: $color-primary;
+            border-color: $color-primary;
+        }
+        
+    }
+}

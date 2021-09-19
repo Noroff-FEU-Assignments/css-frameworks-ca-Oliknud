@@ -1,5 +1,25 @@
+main {
+  display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(xl) {
+    flex-direction: row-reverse;
+
+    .info-container {
+      padding-top: 70px;
+    }
+  }
+}
+
+.info-container {
+  padding-left: 0;
+}
+
+.form-container {
+  padding-left: 0;
+}
+
 .info {
-    margin-top: 30px;
+  margin-top: 30px;
   .icons {
     max-width: 60px;
   }
@@ -9,21 +29,36 @@
 }
 
 .contact-form {
-  background-color: #EFEFEF !important;
+  background-color: #efefef !important;
+  padding: 30px;
+  border-radius: 3px;
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.055));
+  margin-bottom: 160px;
 
   .submit-btn {
     background-color: #767676;
     border: none;
     width: 100%;
+    padding: 10px 0;
   }
 
   .form-check-input {
     background-color: $color-primary;
-    padding: 15px;
+    padding: 16px;
+    margin: 0;
     border: none;
+  }
+  .form-check {
+    display: flex;
+    padding: 0;
   }
 
   .form-check-label {
     font-size: 15px;
+    margin-left: 10px;
+  }
+
+  textarea {
+    resize: none;
   }
 }
